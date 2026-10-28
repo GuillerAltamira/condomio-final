@@ -10,9 +10,7 @@
         <p class="text-muted mb-0 small">Bienvenido al sistema administrativo integral. Fecha actual: <strong>{{ date('d/m/Y') }}</strong></p>
     </div>
     <div class="d-flex flex-wrap gap-2">
-        <a href="{{ route('expensas.generar-masivo') }}" class="btn btn-outline-primary btn-sm">
-            <i class="bi bi-magic me-1"></i>Generar Expensas Mes
-        </a>
+        
         <a href="{{ route('gastos.create') }}" class="btn btn-outline-danger btn-sm">
             <i class="bi bi-dash-circle me-1"></i>Registrar Gasto
         </a>
