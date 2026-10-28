@@ -67,7 +67,7 @@
                             <ul class="list-unstyled mb-0 small">
                                 @foreach($departamento->residentes as $res)
                                     <li>&bull; {{ $res->name }} (CI: {{ $res->ci }})</li>
-                                endforeach
+                                @endforeach
                             </ul>
                         </div>
                     @endif
